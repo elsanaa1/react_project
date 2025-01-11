@@ -1,14 +1,18 @@
 import './App.css';
 import Navigation from './NavBar';
-
-
+import CardCom from './Cards'
+import Heading from './Heading'
 
 const App = () =>{
   return (
-    <>
-    <Navigation />
-    <div>hello</div> 
-    </>  
+    <React.Fragment>
+      <div className='App'>
+        <Navigation />
+        <Heading />
+        <CardCom  /> 
+      </div>
+    
+    </React.Fragment>
   );
 }
 
