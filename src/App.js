@@ -2,6 +2,8 @@ import './App.css';
 import Navigation from './NavBar';
 import CardCom from './Cards'
 import Heading from './Heading'
+import React from 'react';
+
 
 const App = () =>{
   return (
