@@ -46,7 +46,8 @@ const FormContact=()=>{
           <Col sm="10"  >
             <Form.Control type="text" placeholder="message" style={{height:80 }}/>
           </Col>
-        </Form.Group>
+    </Form.Group>
+    {/* button */}
         <div style={{  display: 'flex',justifyContent: 'center'}}>
         <button type="button" class="btn btn-primary"  >Contact US</button>
         </div>
