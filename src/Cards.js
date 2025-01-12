@@ -1,12 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import img1 from './img1.jpeg';
 const buynw='Buy Now'
 function CardCom() {
   return (
     <>
       {/* card 1 */}
     <Card style={{ width: '18rem'  ,display:'inline-block' ,margin:'10px 50px 50px'}}>
-      <Card.Img style={{width:'200px',height: '230px'}}  variant="top" src="https://uno.ma/pub/media/catalog/product/cache/af8d7fd2c4634f9c922fba76a4a30c04/i/p/ip-15-ro-1_3.jpeg"  />
+      <Card.Img style={{width:'200px',height: '230px'}}  variant="top" src={img1}  />
       <Card.Body>
         <Card.Title>Iphone 15 </Card.Title>
         <Card.Text>
